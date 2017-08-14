@@ -1,0 +1,50 @@
+{
+  "name": "leaf",
+  "version": "1.0.0",
+  "description": "leaf react application",
+  "main": "app.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "build-watch": "./node_modules/.bin/webpack -w",
+    "start": "npm run build-watch & babel-node --presets es2015 server/app.js"
+  },
+  "author": "Quinn Ngo",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "image-webpack-loader": "^3.3.1",
+    "path": "^0.12.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^1.15.0"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "fetch": "^1.1.0",
+    "mongoose": "^4.11.1",
+    "normalize.css": "^7.0.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "react-image-load": "^1.1.2",
+    "styled-components": "^2.1.1"
+  }
+}

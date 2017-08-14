@@ -1,0 +1,53 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2%;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: left;
+  padding: 1%;
+}
+
+li a {
+  display: block;
+  color: #82899b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+li a:hover {
+  border-radius: 15px;
+}
+
+a svg {
+  width: 2.5%;
+  float: right;
+  padding-right: 2%;
+  padding-top: 1.25%;
+}
+
+a svg:hover {
+  fill: #06f9af;
+}
+
+.AboutMe:hover {
+  color: #3e6ef8;
+  background-color: #c3d1fa;
+}
+
+.Projects:hover {
+  color: #f354ad;
+  background-color: #fad6f6;
+}
+
+.Resume:hover {
+  color: #f98406;
+  background-color: #fdd5ad;
+}
+
+
